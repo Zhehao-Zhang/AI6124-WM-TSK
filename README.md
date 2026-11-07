@@ -17,20 +17,17 @@ Five expanding-window folds use 252 trading days each for validation and testing
 Use Python 3.12. Install dependencies with `python -m pip install -r requirements.txt`. The prepared arrays can be loaded directly without rerunning preprocessing:
 
 ```python
-import numpy as np
+from wm_data import load_all_folds
 
-with np.load("data/processed/wm_training_data.npz", allow_pickle=False) as saved:
-    training_data = {
-        i: {key.removeprefix(f"fold_{i}_"): saved[key]
-            for key in saved.files if key.startswith(f"fold_{i}_")}
-        for i in range(1, 6)
-    }
+training_data = load_all_folds()
 
 data = training_data[1]  # Example fold; evaluate all five folds.
 X_train, y_train = data["X_train"], data["y_train"]
 X_val, y_val = data["X_val"], data["y_val"]
 X_test, y_test = data["X_test"], data["y_test"]
 ```
+
+`wm_data.py` loads the saved arrays and scaling metadata for independent model scripts or notebooks. It does not rerun feature construction or refit preprocessing.
 
 ## Reproduction
 
