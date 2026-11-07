@@ -1,0 +1,9 @@
+.venv*/
+__pycache__/
+.ipynb_checkpoints/
+output/
+data/model_ready/
+*.md
+*.pdf
+.env
+.env.*
