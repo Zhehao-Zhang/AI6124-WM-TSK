@@ -4,6 +4,7 @@ __pycache__/
 output/
 data/model_ready/
 *.md
+!/README.md
 *.pdf
 .env
 .env.*
