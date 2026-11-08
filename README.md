@@ -6,7 +6,7 @@ AI6124 project on next-trading-day log-return forecasting for Waste Management (
 
 The notebook implements price inspection, a moving-average trading baseline, supervised feature/target construction, chronological splitting and training-only input standardization. Prepared data are included for immediate model development.
 
-TSK, TSK with DropRule and MLP training are not implemented yet. Their comparative forecasting and trading results remain to be produced.
+TSK, TSK with DropRule and benchmark for MLP and LSTM training are not implemented yet. Their comparative forecasting and trading results remain to be produced.
 
 ## Current Outputs
 
