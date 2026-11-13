@@ -5,6 +5,7 @@ output/
 data/model_ready/
 *.md
 !/README.md
+!/BENCHMARK_HANDOFF.md
 *.pdf
 .env
 .env.*

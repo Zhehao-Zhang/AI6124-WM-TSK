@@ -3,3 +3,4 @@ pandas==3.0.1
 yfinance==0.2.66
 matplotlib==3.10.9
 scikit-learn==1.9.1
+torch

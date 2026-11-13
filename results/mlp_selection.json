@@ -1,0 +1,71 @@
+{
+  "model": "mlp",
+  "selection_seed": 0,
+  "folds": [
+    {
+      "fold": 1,
+      "config": {
+        "hidden": [
+          64,
+          32
+        ],
+        "dropout": 0.2,
+        "weight_decay": 0.001,
+        "lr": 0.003
+      },
+      "validation_rmse": 0.010557830446187919
+    },
+    {
+      "fold": 2,
+      "config": {
+        "hidden": [
+          64,
+          32
+        ],
+        "dropout": 0.2,
+        "weight_decay": 0.001,
+        "lr": 0.003
+      },
+      "validation_rmse": 0.013053427809754388
+    },
+    {
+      "fold": 3,
+      "config": {
+        "hidden": [
+          64,
+          32
+        ],
+        "dropout": 0.0,
+        "weight_decay": 0.0,
+        "lr": 0.003
+      },
+      "validation_rmse": 0.011070197059934745
+    },
+    {
+      "fold": 4,
+      "config": {
+        "hidden": [
+          64,
+          32
+        ],
+        "dropout": 0.0,
+        "weight_decay": 0.0,
+        "lr": 0.003
+      },
+      "validation_rmse": 0.011384721314416146
+    },
+    {
+      "fold": 5,
+      "config": {
+        "hidden": [
+          64,
+          32
+        ],
+        "dropout": 0.2,
+        "weight_decay": 0.001,
+        "lr": 0.003
+      },
+      "validation_rmse": 0.011450142265708048
+    }
+  ]
+}
