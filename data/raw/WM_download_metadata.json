@@ -1,0 +1,11 @@
+{
+  "symbol": "WM",
+  "requested_start_inclusive": "2000-01-01",
+  "requested_end_inclusive": "2026-09-30",
+  "request_end_exclusive": "2026-10-01",
+  "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/WM?period1=946702800&period2=1790827200&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+  "downloaded_at_utc": "2026-11-07T08:39:55.993848+00:00",
+  "exchange_timezone": "America/New_York",
+  "currency": "USD",
+  "source_bytes": 716400
+}

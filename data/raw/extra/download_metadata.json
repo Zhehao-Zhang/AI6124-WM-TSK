@@ -1,0 +1,29 @@
+{
+  "GSPC": {
+    "symbol": "^GSPC",
+    "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/%5EGSPC?period1=946702800&period2=1790827200&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "downloaded_at_utc": "2026-11-09T06:50:10.101246+00:00",
+    "rows": 6726,
+    "first": "2000-01-03",
+    "last": "2026-09-30",
+    "csv_sha256": "f6bf3a8e87e892803508278ed3e75c7aeb65dc893d04fbe32d5d6e5e1910f647"
+  },
+  "RSG": {
+    "symbol": "RSG",
+    "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/RSG?period1=946702800&period2=1790827200&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "downloaded_at_utc": "2026-11-09T06:50:10.441847+00:00",
+    "rows": 6726,
+    "first": "2000-01-03",
+    "last": "2026-09-30",
+    "csv_sha256": "8d615d9ce9757f8496b7ad857add959abafdcc7526cc22257be8f5d82450256d"
+  },
+  "VIX": {
+    "symbol": "^VIX",
+    "source_url": "https://query1.finance.yahoo.com/v8/finance/chart/%5EVIX?period1=946702800&period2=1790827200&interval=1d&events=div%2Csplits&includeAdjustedClose=true",
+    "downloaded_at_utc": "2026-11-09T06:50:10.812193+00:00",
+    "rows": 6978,
+    "first": "2000-01-03",
+    "last": "2026-09-30",
+    "csv_sha256": "2e2ab5916cef6e8273c910722725dd830080f1c9e7cb6991b3bf8fa20ccd1611"
+  }
+}

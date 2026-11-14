@@ -1,6 +1,10 @@
-numpy==2.3.5
-pandas==3.0.1
+# Tested with Python 3.14.6 (versions of the run saved in AI6124_G31_Final.ipynb)
+numpy==2.5.2
+pandas==3.0.5
+scikit-learn==1.9.0
+matplotlib==3.11.1
+torch==2.14.0
+joblib==1.6.0
+threadpoolctl==3.6.0
 yfinance==0.2.66
-matplotlib==3.10.9
-scikit-learn==1.9.1
-torch
+jupyterlab==4.6.6
