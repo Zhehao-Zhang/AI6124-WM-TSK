@@ -126,7 +126,7 @@ These scripts select each model on its own fold's validation block. The final no
 ## Authors
 
 - **Zhang Zhehao**: data pipeline, TSK model, experiments and report.
-- **Li Yetong**: MLP and LSTM benchmarks.
+- **Li Yetong**: MLP and LSTM benchmarks, experiments and report.
 
 ## References
 
